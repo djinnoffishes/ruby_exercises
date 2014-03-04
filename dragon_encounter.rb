@@ -14,7 +14,7 @@
 # 1. Check if either the hero or monster's hitpoints reach zero, if so, exit the program
 # 2. Have the hero attack the monster and then vice versa
 # 3. Repeat until #1 becomes true
-
+  
 def run_sample_battle
   # (name, hitpoints, attack_strength, defense_strength, experience, exp_reward)
   monster = Character.new  "Dragon", 100, 30, 10, 0, 20
